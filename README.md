@@ -1,37 +1,56 @@
+# SpamGuard AI — SMS Spam Detection
 
-# SpamGuard AI
+An AI-powered machine learning web application that classifies SMS messages as **Spam** or **Not Spam** using Python and Streamlit.
 
-A beginner-friendly machine learning application that
-classifies text messages as Spam or Not Spam.
+## Features
+- Classifies SMS messages as Spam or Not Spam.
+- Uses text vectorization and a Multinomial Naive Bayes classifier.
+- Displays model evaluation metrics.
+- Provides an interactive interface to test custom messages.
 
 ## Technologies Used
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
-
-## Machine Learning
-- CountVectorizer for text feature extraction
-- Multinomial Naive Bayes classifier
-- Train-test split for evaluation
-
-## How to Run
-
-1. Install the required libraries:
-
-   pip install pandas scikit-learn streamlit
-
-2. Run the application:
-
-   streamlit run app.py
-
-3. Enter a message and click Check Message.
+- CountVectorizer
+- Multinomial Naive Bayes
 
 ## Dataset
-A small, manually prepared dataset is used for initial
-testing. Predictions may be inaccurate on unfamiliar messages.
+Uses the SMS Spam Collection dataset for training and evaluation.
+
+## How to Run Locally
+
+1. Clone this repository:
+
+   `git clone https://github.com/bhavyaanjinis/SpamGuard-AI.git`
+
+2. Open the project folder:
+
+   `cd SpamGuard-AI`
+
+3. Install the required libraries:
+
+   `pip install pandas scikit-learn streamlit`
+
+4. Run the application:
+
+   `python -m streamlit run app.py`
+
+5. Open the local URL displayed in the terminal.
+
+## Learning Outcomes
+- Text preprocessing and feature extraction
+- Supervised machine learning
+- Model evaluation
+- Building an interactive ML web application
 
 ## Future Improvements
-- Use a larger labelled dataset
-- Evaluate precision, recall and F1-score
-- Test on unseen messages
+- Improve model performance with additional testing.
+- Add a confusion matrix and more evaluation visualizations.
+- Deploy the application online.
+
+## Author
+Bhavya Anjani Sudipurapu
+
+GitHub: https://github.com/bhavyaanjinis
